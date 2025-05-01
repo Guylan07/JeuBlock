@@ -1,0 +1,101 @@
+.conversation {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .conversation-header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .conversation-header-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .conversation-header-avatar {
+    font-size: 24px;
+    margin-right: 10px;
+    background-color: #ebedf0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .conversation-header-name {
+    font-weight: 500;
+  }
+  
+  .conversation-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+  }
+  
+  .conversation-input {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    gap: 10px;
+  }
+  
+  .conversation-input input {
+    flex: 1;
+  }
+  
+  .blocked-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #ff4d4f;
+    font-weight: 500;
+    background-color: #fff1f0;
+    margin: 15px;
+    border-radius: 8px;
+    border: 1px solid #ffccc7;
+  }
+  
+  .block-button {
+    background-color: #ff4d4f;
+  }
+  
+  .block-button:hover {
+    background-color: #d43b3e;
+  }
+  
+  .block-confirm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+  }
+  
+  .block-confirm-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .block-confirm-yes {
+    background-color: #ff4d4f;
+  }
+  
+  .block-confirm-yes:hover {
+    background-color: #d43b3e;
+  }
+  
+  .block-confirm-no {
+    background-color: #8c8c8c;
+  }
+  
+  .block-confirm-no:hover {
+    background-color: #666666;
+  }
